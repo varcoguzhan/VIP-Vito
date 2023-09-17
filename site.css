@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header {
+    
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    padding: 15px;
+}
+.customer-desing{
+    border-radius: 10px;
+    color: green;
+    background-color: rgb(rgba(49, 22, 42, 0.964));
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navbar {
+    align-items: center;
+   
+}
+.flex-items {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bg-menu{
+    background-color: rgba(72, 80, 78, 0.197);
+}
+.w-75 {
+    width: 75%;
+}
+.w-100{
+    width: 100%;
+}
+#top-menu {
+    list-style-type: none;
+    justify-content: flex-end;
+
+}
+.mr-2{
+    margin-right: 4px;
+}
+.menu-item {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+   
+
+}
+.content {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('1685718600_mercedes-benz-maybach.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.content::before {
+    content: "";
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#about-color{
+    color: rgb(75, 188, 75);
+}
+
+.content h1 {
+    color: white;
+}
+
+.content p {
+    margin: 25px auto;
+    color: white;
+}
+
+.content-inside {
+    z-index: 1;
+    text-align: center;
+}
