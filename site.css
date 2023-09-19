@@ -30,6 +30,13 @@
     justify-content: center;
    
 }
+.boyut{
+    height: 200px;
+    width: 200px;
+
+   justify-content: flex-end;
+
+}
 
 .flex-item {
     display: flex;
